@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url("C:/Users/kivilaak/Proov/BebasNeue-Regular.ttf");
+}
+
+body {
+
+    background-color: rgb(28, 28, 28);
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#Sissejuhatus {
+    background-color: #272727;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Pealkiri1 {
+    color: rgb(255, 215, 0);
+    font-size: 48px;
+    font-family: "BebasNeue";
+    letter-spacing: 2px;
+}
+
+#VisitViljandiLink {
+    color: rgb(255, 215, 0);
+    background-color: #323232;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 215, 0);
+}
+
+#PiltViljandist {
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 12px white;
+}
